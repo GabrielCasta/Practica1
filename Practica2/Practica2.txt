@@ -1,0 +1,222 @@
+<html>
+   <head>
+     <title>
+Practica 2
+     </title>
+   </head>
+           <body>
+                <form>
+<label>Nombre</label><br/>
+<input type="text" name ="Usuario"/><br/><br/>
+<label>Apellido Paterno</label><br/>
+<input type="text" name ="Usuario"/><br/><br/>
+<label>Apellido Materno</label><br/>
+<input type="text" name ="Usuario"/><br/><br/>
+
+<table border="2px">
+<tr>
+<th>Edad</th>
+</tr>
+<tr>
+<td>20</td>
+</tr>
+<tr>
+<td>21</td>
+</tr>
+<tr>
+<td>22</td>
+</tr>
+<tr>
+<td>23</td>
+</tr>
+<tr>
+<td>24</td>
+</tr>
+<tr>
+<td>25</td>
+</tr>
+<tr>
+<td>26</td>
+</tr>
+<tr>
+<td>27</td>
+</tr>
+<tr>
+<td>28</td>
+</tr>
+<tr>
+<td>29</td>
+</tr>
+<tr>
+<td>30</td>
+</tr>
+<br/>
+</table>
+<br/>
+
+<table border="2px">
+<tr>
+<th>Nacionalidad</th>
+</tr>
+<tr>
+<td>Mexicana</td>
+</tr>
+<tr>
+<td>irlandés</td>
+</tr>
+<tr>
+<td>británico</td>
+</tr>
+<tr>
+<td>sueco</td>
+</tr>
+<tr>
+<td>escocés</td>
+</tr>
+<tr>
+<td>galés</td>
+</tr>
+<tr>
+<td>noruego</td>
+</tr>
+<tr>
+<td>lituano</td>
+</tr>
+<tr>
+<td>letón</td>
+</tr>
+<tr>
+<td>islandés</td>
+</tr>
+<tr>
+<td>inglés</td>
+</tr>
+</table>
+<br/>
+<label>Telefono</label><br/>
+<input type="text" name ="Usuario"/><br/><br/>
+<label>Email</label><br/>
+<input type="text" name ="Usuario"/><br/><br/>
+<label>Domicilio</label><br/>
+<input type="text" name ="Usuario"/><br/><br/>
+
+<label>Interes</label>
+<br/>
+
+<input type ="Checkbox" name ="Opcion1"
+id="semi1"/>
+<label for="semi1">
+Musica
+</label>
+<br/>
+
+<input type ="Checkbox" name ="Opcion2"
+id="semi2"/>
+<label for="semi2">
+TV
+</label>
+<br/>
+
+<input type ="Checkbox" name ="Opcion3"
+id="semi3"/>
+<label for="semi3">
+Libros
+</label>
+<br/>
+
+<input type ="Checkbox" name ="Opcion4"
+id="semi4"/>
+<label for="semi4">
+Deportes
+</label>
+<br/>
+
+<input type ="Checkbox" name ="Opcion5"
+id="semi5"/>
+<label for="semi5">
+Tecnologia
+</label>
+<br/>
+<br/>
+<label>Ultimo Grado de Estudios</label>
+<br/>
+<input type ="Radio" name ="Estudios"
+id="semi1"/>
+<label for="semi1">
+Ninguno
+</label>
+<br/>
+
+<input type ="Radio" name ="Estudios"
+id="semi2"/>
+<label for="semi2">
+Primaria
+</label>
+<br/>
+
+<input type ="Radio" name ="Estudios"
+id="semi3"/>
+<label for="semi3">
+Secundaria
+</label>
+<br/>
+
+<input type ="Radio" name ="Estudios"
+id="semi3"/>
+<label for="semi3">
+Bachillerato
+</label>
+<br/>
+
+<input type ="Radio" name ="Estudios"
+id="semi4"/>
+<label for="semi4">
+Licenciatura
+</label>
+<br/>
+
+<input type ="Radio" name ="Estudios"
+id="semi5"/>
+<label for="semi5">
+Maestria
+</label>
+<br/>
+
+<input type ="Radio" name ="Estudios"
+id="semi6"/>
+<label for="semi6">
+Doctorado
+</label>
+<br/>
+<br/>
+<label>Observaciones Persona</label>
+<br/>
+<textarea
+name"descripcion"
+rows="10"
+cols="50">
+</textarea>
+<br/>
+<br/>
+<label>Datos</label>
+<br/>
+<textarea
+name"descripcion"
+rows="10"
+cols="50">
+</textarea>
+<br/>
+<br/>
+
+<form action ="cancelar" methor="GET">
+<input type="reset" name="Cancelar">
+
+<form action ="enviar" methor="POST">
+<input type="submit" name="Enviar">
+ 
+
+
+
+       </form> 
+    </body>
+</html>
